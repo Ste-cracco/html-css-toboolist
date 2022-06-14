@@ -14,15 +14,15 @@ body {
 }
 
 .container {
-    width: 1000px;
+    max-width: 1000px;
     height: 1500px;
     background-color: white;
     margin: auto;
 }
 
-.container *{
-    margin-left: 50px;
-}
+.container {
+    padding-left: 50px;
+} 
 
 /* CSS Bottoni */
 .bottone {
@@ -53,4 +53,100 @@ body {
 
 #divisore {
     margin-left: 0;
+}
+
+.sottotitolo {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.triangolo {
+    display: inline-block;
+    margin-top: 30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: black transparent transparent transparent;
+    padding-bottom: 3px;
+}
+
+h2 {
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+/* CSS Badge */
+.badge {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.badge_editorial {
+    background-color: #4ea0ff;
+}
+
+.badge_q1 {
+    background-color: purple;
+}
+
+.badge_recruiting {
+    background-color: green;
+}
+
+.badge_mobile {
+    background-color: orange;
+}
+
+.badge_website {
+    background-color: lightcoral;
+}
+
+.badge_sales {
+    background-color: lightgreen;
+}
+
+.container_sottotitolo {
+    display: block;
+}
+
+/* CSS Icone */
+.spunta_verde {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+.x_rossa {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
 }
