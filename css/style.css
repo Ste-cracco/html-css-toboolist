@@ -1,0 +1,56 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+}
+
+#logo_header {
+    padding: 10px 20px 10px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+.container {
+    width: 1000px;
+    height: 1500px;
+    background-color: white;
+    margin: auto;
+}
+
+.container *{
+    margin-left: 50px;
+}
+
+/* CSS Bottoni */
+.bottone {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    font-family: arial;
+    font-size: 14px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.bottone_task {
+    background-color:#4ea0ff;
+    border: 2px solid #4ea0ff;
+    color:white;
+}
+
+.bottone_section {
+    color:lightgrey;
+    border: 2px solid lightgrey;
+    margin-left: 0;
+}
+
+#divisore {
+    margin-left: 0;
+}
